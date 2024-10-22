@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import Bottles from './components/Bottles/Bottles'
+import Header from './components/Header/Header'
 function App() {
 
+  // step 1 we made components folder then Header there and call it here
+
+  // step 2 got the json file from github programming hero and added in the bottles.json file 
   return (
     <>
-      
-      <h1>Vite + React</h1>
-      
+    <Header></Header> 
+    <Bottles></Bottles>
     </>
   )
 }
